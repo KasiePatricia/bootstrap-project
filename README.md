@@ -11,8 +11,8 @@
 - Connect with licensed therapists in real-time, from anywhere
 - Choose from a variety of therapists specializing in different areas, such as anxiety, depression, relationship issues, and more
 - Book and manage appointments, including rescheduling or canceling, all from the app
-- Engage in text, audio, and video sessions with your therapist
 - Access to a library of resources, including articles, videos, and tools to help you practice self-care and manage your mental health
+- Ability to sign up and sign in as a client or therapist
 
 ## Getting Started:
 
@@ -33,11 +33,11 @@ Your _privacy_ and _security_ are our top priorities. All sessions are encrypted
 
 | Color                | Hex                                                              |
 | -------------------- | ---------------------------------------------------------------- |
-| Therapy Dark Green   | ![#325343](https://via.placeholder.com/10/0a192f?text=+) #325343 |
-| Therapy Light Green  | ![#9BD58B](https://via.placeholder.com/10/f8f8f8?text=+) #9BD58B |
-| Therapy Light Yellow | ![#DFF5AB](https://via.placeholder.com/10/00b48a?text=+) #DFF5AB |
-| Therapy Green        | ![#F4F5F8](https://via.placeholder.com/10/00b48a?text=+) #F4F5F8 |
-| Therapy Green        | ![#438766](https://via.placeholder.com/10/00b48a?text=+) #438766 |
+| Therapy Dark Green   | ![#325343](https://via.placeholder.com/10/325343?text=+) #325343 |
+| Therapy Light Green  | ![#9BD58B](https://via.placeholder.com/10/9BD58B?text=+) #9BD58B |
+| Therapy Light Yellow | ![#DFF5AB](https://via.placeholder.com/10/DFF5AB?text=+) #DFF5AB |
+| Therapy Green        | ![#F4F5F8](https://via.placeholder.com/10/F4F5F8?text=+) #F4F5F8 |
+| Therapy Green        | ![#438766](https://via.placeholder.com/10/438766?text=+) #438766 |
 
 ## Deployment
 
