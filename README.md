@@ -94,8 +94,9 @@ If you have any questions or need help getting started, please don't hesitate to
 
 ### User signup
 
-```bash
 'https://apitherapy-production.up.railway.app/usersignup'
+
+```bash
 method: "POST"
 input values
 name, email, password:
@@ -105,8 +106,9 @@ name, email, password:
 
 ### user login
 
+'https://apitherapy-production.up.railway.app/userlogin'
+
 ```bash
-''https://apitherapy-production.up.railway.app/userlogin'
 method: "POST"
 input values
 email, password
@@ -119,9 +121,9 @@ email must be in email format
 
 ### Therapist signup
 
-```bash
-''https://apitherapy-production.up.railway.app/therapistsignup'
+'https://apitherapy-production.up.railway.app/therapistsignup'
 
+```bash
 method: "POST"
 input values
 name, email,password, location, liscense, specialty
@@ -136,9 +138,9 @@ loaction , license, specialty must not be empty
 
 ### Therapist login
 
-```bash
-https://apitherapy-production.up.railway.app/tharapistlogin
+'https://apitherapy-production.up.railway.app/tharapistlogin'
 
+```bash
 method: "POST"
 input values
 email, password
@@ -148,9 +150,9 @@ email, password
 
 ### Therapist / client user dashboard
 
-```bash
-https://apitherapy-production.up.railway.app/dashboard'
+'https://apitherapy-production.up.railway.app/dashboard'
 
+```bash
 method: "GET"
 input values
 headers: “Bearer “ + token
@@ -160,9 +162,9 @@ headers: “Bearer “ + token
 
 ### Booking appointment
 
-```bash
-' https://apitherapy-production.up.railway.app/bookappointment'
+'https://apitherapy-production.up.railway.app/bookappointment'
 
+```bash
 method: "POST"
 input values
 
@@ -177,9 +179,9 @@ route protected
 
 ### Profile picture upload
 
-```bash
-' https://apitherapy-production.up.railway.app/uploadImage'
+'https://apitherapy-production.up.railway.app/uploadImage'
 
+```bash
 method: "POST"
 input values
 token
@@ -201,9 +203,9 @@ body: formData
 
 ### Client confirm registration
 
-```bash
-https://apitherapy-production.up.railway.app/usersignupconfirm
+'https://apitherapy-production.up.railway.app/usersignupconfirm'
 
+```bash
 method: "POST"
 input values
 OTP: string
@@ -274,11 +276,11 @@ method: “POST”
 
 ### Get frequently asked questions
 
-# https://apitherapy-production.up.railway.app/getfaqs
+'https://apitherapy-production.up.railway.app/getfaqs'
 
 ### Get sessions booked by a user
 
-https://apitherapy-production.up.railway.app/getsessions
+'https://apitherapy-production.up.railway.app/getsessions'
 
 ```bash
 method: “GET”
