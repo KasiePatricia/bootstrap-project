@@ -1,4 +1,6 @@
-![Therapy logo](https://img.freepik.com/premium-vector/physical-therapy-word-concepts-banner_106317-19582.jpg?w=996) # Therapy App
+![Therapy logo](https://img.freepik.com/premium-vector/physical-therapy-word-concepts-banner_106317-19582.jpg?w=996)
+
+# Therapy App
 
 ## Introduction:
 
@@ -6,11 +8,11 @@
 
 ## Features:
 
-Connect with licensed therapists in real-time, from anywhere
-Choose from a variety of therapists specializing in different areas, such as anxiety, depression, relationship issues, and more
-Book and manage appointments, including rescheduling or canceling, all from the app
-Engage in text, audio, and video sessions with your therapist
-Access to a library of resources, including articles, videos, and tools to help you practice self-care and manage your mental health
+- Connect with licensed therapists in real-time, from anywhere
+- Choose from a variety of therapists specializing in different areas, such as anxiety, depression, relationship issues, and more
+- Book and manage appointments, including rescheduling or canceling, all from the app
+- Engage in text, audio, and video sessions with your therapist
+- Access to a library of resources, including articles, videos, and tools to help you practice self-care and manage your mental health
 
 ## Getting Started:
 
@@ -21,10 +23,11 @@ To get started with **Therapy App**, simply download the app from the App Store 
 Your _privacy_ and _security_ are our top priorities. All sessions are encrypted and confidential, and we adhere to strict security and privacy standards to protect your information.
 
 ##Tools:
-React Js
-Vite Js
-Tailwindcss
-DaisyUI
+
+- React Js
+- Vite Js
+- Tailwindcss
+- DaisyUI
 
 ## Color Reference
 
@@ -85,7 +88,7 @@ If you have any questions or need help getting started, please don't hesitate to
 
 ## Hosted Link:
 
-[Therapy](https://therapy-app.vercel.app)
+[**Therapy**](https://therapy-app.vercel.app)
 
 ## The Therapy App API Endpoints and backend
 
@@ -99,8 +102,10 @@ name, email, password:
 ```
 
 =======================================================
-user login
 
+### user login
+
+```bash
 ''https://apitherapy-production.up.railway.app/userlogin'
 method: "POST"
 input values
@@ -108,9 +113,13 @@ email, password
 validation
 password must be at least six characters
 email must be in email format
+```
 
 =======================================================
-Therapist signup
+
+### Therapist signup
+
+```bash
 ''https://apitherapy-production.up.railway.app/therapistsignup'
 
 method: "POST"
@@ -121,24 +130,37 @@ validation
 password must be at least six characters
 email must be in email format
 loaction , license, specialty must not be empty
+```
+
 ==========================================================
 
-Therapist login
+### Therapist login
+
+```bash
 https://apitherapy-production.up.railway.app/tharapistlogin
 
 method: "POST"
 input values
 email, password
+```
+
 =========================================================
-Therapist / client user dashboard
+
+### Therapist / client user dashboard
+
+```bash
 https://apitherapy-production.up.railway.app/dashboard'
 
 method: "GET"
 input values
 headers: “Bearer “ + token
+```
+
 ==========================================================
 
-Booking appointment
+### Booking appointment
+
+```bash
 ' https://apitherapy-production.up.railway.app/bookappointment'
 
 method: "POST"
@@ -149,83 +171,127 @@ username ,therapistname ,therapistId , meetingType , disorderType, appointmentTi
 
 Authentication
 route protected
+```
+
 ==============================================
 
-Profile picture upload
+### Profile picture upload
+
+```bash
 ' https://apitherapy-production.up.railway.app/uploadImage'
 
 method: "POST"
 input values
 token
 image file
+```
 
-Authentication
+### Authentication
+
 route protected
 code example
 
+```bash
 const url = " https://apitherapy-production.up.railway.app/uploadImage"
 fetch(url, {
 headers: "Bearer " + token // there must be a space after the Bearer string
 body: formData
 })
+```
 
-Client confirm registration
+### Client confirm registration
+
+```bash
 https://apitherapy-production.up.railway.app/usersignupconfirm
 
 method: "POST"
 input values
 OTP: string
+```
+
 ============================================================
-Therapist sign up confirmation
+
+### Therapist sign up confirmation
+
 Same a client confirmation
-' https://apitherapy-production.up.railway.app/therapistconfirmsignup’
-================================================================
 
-Client user onboarding
-' https://apitherapy-production.up.railway.app/useronboarding'
+'https://apitherapy-production.up.railway.app/therapistconfirmsignup'
 
+### Client user onboarding
+
+'https://apitherapy-production.up.railway.app/useronboarding'
+
+```bash
 method: "POST"
 input values
 hobbies, stateOforigin, marriageStatus
+```
 
-Therapist user onboarding
+### Therapist user onboarding
+
 ' https://apitherapy-production.up.railway.app/therapistonboarding'
 Same as client user onboarding
 
 When the client user / therapist onboard the boarded field is activated which will enable the user to login
 
-Client user profile updates
+#### Client user profile updates
+
 https://apitherapy-production.up.railway.app/edituserptofile
+
+```bash
 method: “PUT”
 input values
 email, name, location
 headers: Bearer + token
+```
+
 ============================================================
 
-Therapist user profile updates
+### Therapist user profile updates
+
 https://apitherapy-production.up.railway.app/edittherapistprofile
+
+```bash
 method: “PUT”
 input values
 email, name, location, specialty, liscense
 headers: Bearer + token
+```
+
 =============================================================
-Send frequently asked question
+
+### Send frequently asked question
+
 https://apitherapy-production.up.railway.app/sendfaq
+
+```bash
 input values
 email, name, message, questionType
 method: “POST”
-=====================================================
-Get frequently asked questions
-https://apitherapy-production.up.railway.app/getfaqs
-===================================================
-Get sessions booked by a user
-https://apitherapy-production.up.railway.app/getsessions
-method: “GET”
-headers : ‘Bearer ‘ + token
+```
 
-Get All therapists
-https://apitherapy-production.up.railway.app/getTherapists
+=====================================================
+
+### Get frequently asked questions
+
+# https://apitherapy-production.up.railway.app/getfaqs
+
+### Get sessions booked by a user
+
+https://apitherapy-production.up.railway.app/getsessions
+
+```bash
 method: “GET”
 headers : ‘Bearer ‘ + token
+```
+
+### Get All therapists
+
+https://apitherapy-production.up.railway.app/getTherapists
+
+```bash
+method: “GET”
+headers : ‘Bearer ‘ + token
+```
 
 We hope you find the support and care you need through **Therapy App**.
