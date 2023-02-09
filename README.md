@@ -1,4 +1,4 @@
-![Therapy logo](https://img.freepik.com/premium-vector/physical-therapy-word-concepts-banner_106317-19582.jpg?w=996)
+![Therapy logo](https://i.postimg.cc/QdFhXt2r/therapy-logo.png)
 
 # Therapy App
 
@@ -22,7 +22,7 @@ To get started with **Therapy App**, simply download the app from the App Store 
 
 Your _privacy_ and _security_ are our top priorities. All sessions are encrypted and confidential, and we adhere to strict security and privacy standards to protect your information.
 
-##Tools:
+## Tools:
 
 - React Js
 - Vite Js
