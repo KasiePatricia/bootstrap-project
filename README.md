@@ -39,6 +39,20 @@ Your _privacy_ and _security_ are our top priorities. All sessions are encrypted
 | Therapy Green        | ![#F4F5F8](https://via.placeholder.com/10/F4F5F8?text=+) #F4F5F8 |
 | Therapy Green        | ![#438766](https://via.placeholder.com/10/438766?text=+) #438766 |
 
+## The Pages
+
+### The Landing page
+
+![Landing Page](https://i.postimg.cc/fyPq5wBx/landing-page.png)
+
+### Sign up page
+
+![Sign up Page](https://i.postimg.cc/B4Dzr2RQ/sign-up.png)
+
+### Sign in page
+
+![Sign in Page](https://i.postimg.cc/BQq2wWdF/sign-in.png)
+
 ## Deployment
 
 To deploy this project run
