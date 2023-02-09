@@ -53,6 +53,18 @@ Your _privacy_ and _security_ are our top priorities. All sessions are encrypted
 
 ![Sign in Page](https://i.postimg.cc/BQq2wWdF/sign-in.png)
 
+### Dashboard
+
+![Dashboard](https://i.postimg.cc/Ch5nHNxJ/dashboard.png)
+
+### Booking History
+
+![Booking History](https://i.postimg.cc/yscVLgP0/booking-history.png)
+
+### Frequently Asked Question
+
+![FAQ](https://i.postimg.cc/4JkKY5L2/faq.png)
+
 ## Deployment
 
 To deploy this project run
