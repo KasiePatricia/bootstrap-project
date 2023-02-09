@@ -1,10 +1,10 @@
-![Therapy logo](https://i.postimg.cc/QdFhXt2r/therapy-logo.png)
+![Therapyly logo](https://i.postimg.cc/QdFhXt2r/therapy-logo.png)
 
-# Therapy App
+# Therapyly
 
 ## Introduction:
 
-**Therapy App** is a mental health and wellness platform that connects you with licensed therapists for online counseling sessions. Whether you're seeking help for a specific issue or just want to improve your overall well-being, our app provides a confidential and convenient way to get the support you need.
+**Therapyly** is a mental health and wellness platform that connects you with licensed therapists for online counseling sessions. Whether you're seeking help for a specific issue or just want to improve your overall well-being, our app provides a confidential and convenient way to get the support you need.
 
 ## Features:
 
@@ -16,18 +16,21 @@
 
 ## Getting Started:
 
-To get started with **Therapy App**, simply download the app from the App Store or Google Play Store and create an account. From there, you can browse available therapists, book appointments, and start your therapy journey.
+To get started with **Therapyly**, simply download the app from the App Store or Google Play Store and create an account. From there, you can browse available therapists, book appointments, and start your therapy journey.
 
 ## Privacy & Security:
 
 Your _privacy_ and _security_ are our top priorities. All sessions are encrypted and confidential, and we adhere to strict security and privacy standards to protect your information.
 
-## Tools:
+## Tools Used:
 
 - React Js
 - Vite Js
 - Tailwindcss
 - DaisyUI
+- Node Js
+- Express
+- Mongodb
 
 ## Color Reference
 
@@ -114,9 +117,9 @@ If you have any questions or need help getting started, please don't hesitate to
 
 ## Hosted Link:
 
-[**Therapy**](https://therapy-app.vercel.app)
+[**Therapyly**](https://therapy-app.vercel.app)
 
-## The Therapy App API Endpoints and backend
+## The Therapyly App API Endpoints and backend
 
 ### User signup
 
@@ -322,4 +325,4 @@ method: “GET”
 headers : ‘Bearer ‘ + token
 ```
 
-We hope you find the support and care you need through **Therapy App**.
+We hope you find the support and care you need through **Therapyly**.
